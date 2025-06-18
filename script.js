@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Салат с тыквенным соусом"', price: 11, checked: false },
                 { name: 'Греческий салат', price: 8, checked: false },
                 { name: 'Салат с моцареллой', price: 14, checked: false },
+                { name: 'Салат с морской капустой', price: 12, checked: false },
                 { name: 'Салат с тыквой и свеклой', price: 11, checked: false },
                 { name: 'Теплый с говядиной', price: 16, checked: false },
                 { name: 'Свекла по-адинжански', price: 12, checked: false },
