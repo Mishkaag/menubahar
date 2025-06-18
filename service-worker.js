@@ -1,12 +1,12 @@
 const CACHE_NAME = 'menu-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json',
-  '/icons/icon-192x192.png', // Убедитесь, что пути к иконкам правильные
-  '/icons/icon-512x512.png'
+  '/menubahar/',
+  '/menubahar/index.html',
+  '/menubahar/style.css',
+  '/menubahar/script.js',
+  '/menubahar/manifest.json',
+  '/menubahar/icons/icon-192x192.png', // Убедитесь, что пути к иконкам правильные
+  '/menubahar/icons/icon-512x512.png'
   // Добавьте все остальные ресурсы, которые должны быть доступны офлайн
 ];
 
