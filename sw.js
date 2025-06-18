@@ -1,4 +1,4 @@
-const CACHE_NAME = 'menubahar-cache-v1';
+const CACHE_NAME = 'menubahar-cache-v2';
 const urlsToCache = [
   '/menubahar/',
   '/menubahar/index.html',
