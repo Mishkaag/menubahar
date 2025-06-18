@@ -3,6 +3,7 @@
   "short_name": "Menu Bahar",
   "description": "Меню для выбора блюд и подсчета стоимости.",
   "start_url": "/menubahar/",
+  "id_key": "/menubahar/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
