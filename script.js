@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: 'ХОЛОДНЫЕ ЗАКУСКИ',
             dishes: [
                 { name: 'Мясное ассорти', price: 15, checked: false },
-                { name: 'Мясное/Сырное ассорти', price: 12, checked: false },
+                { name: 'Мясное/Сырное ассорти 2', price: 12, checked: false },
                 { name: 'Сырное канапе', price: 10, checked: false },
                 { name: 'Овощное (садака)', price: 8, checked: false },
                 { name: 'Овощное (банкет)', price: 10, checked: false },
