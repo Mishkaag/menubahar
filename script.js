@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Фрукты в вазе', price: 20, checked: false },
                 { name: 'Лимонная закуска', price: 16, checked: false },
                 { name: 'Фруктовая нарезка', price: 20, checked: false },
-                { name: 'Брускетты микс', price: 12, checked: false }
-                { name: 'Мороженное', price: 10, checked: false }
-                { name: 'Рулетики с лаваша', price: 10, checked: false }
-                { name: 'Хлеб садака', price: 4, checked: false }
-                { name: 'Кур.ножки + картофель', price: 24, checked: false }
-                { name: 'Хлеб банкет', price: 8, checked: false }
-                { name: 'Нагетсы + фри', price: 28, checked: false }
+                { name: 'Брускетты микс', price: 12, checked: false },
+                { name: 'Мороженное', price: 10, checked: false },
+                { name: 'Рулетики с лаваша', price: 10, checked: false },
+                { name: 'Хлеб садака', price: 4, checked: false },
+                { name: 'Кур.ножки + картофель', price: 24, checked: false },
+                { name: 'Хлеб банкет', price: 8, checked: false },
+                { name: 'Нагетсы + фри', price: 28, checked: false },
                 { name: 'Напитки ассорти', price: 20, checked: false }
             ]
         },
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Красная капуста с курицей', price: 12, checked: false },
                 { name: 'Мужской салат', price: 18, checked: false },
                 { name: 'Салат "Тбилиси"', price: 18, checked: false },
-                { name: 'Салат "Мозайка"', price: 10, checked: false },
+                { name: 'Салат "Мозайка"', price: 10, checked: false }
             ]
         },
         {
