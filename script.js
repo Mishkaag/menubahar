@@ -42,6 +42,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Кур.ножки + картофель', price: 24, checked: false },
                 { name: 'Хлеб банкет', price: 8, checked: false },
                 { name: 'Нагетсы + фри', price: 28, checked: false },
+                { name: 'Рыбное - 1 тарелка', price: 80, checked: false },
+                { name: 'Чикен VIP', price: 32, checked: false },
                 { name: 'Напитки ассорти', price: 20, checked: false }
             ]
         },
@@ -179,3 +181,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Изначально обновляем сумму при загрузке страницы
     updateTotalPrice();
 });
+
