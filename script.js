@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'ХОЛОДНЫЕ ЗАКУСКИ',
             dishes: [
-                { name: 'Мясное ассорти', price: 35, checked: false },
+                { name: 'Мясное ассорти', price: 30, checked: false },
                 { name: 'Рулетики микс', price: 15, checked: false },
                 { name: 'Мясное / Сырное', price: 50, checked: false },
                 { name: 'Рулетики из огурцов', price: 10, checked: false },
@@ -17,34 +17,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Баклажаны с брынзой', price: 12, checked: false },
                 { name: 'Овощное ассорти', price: 6, checked: false },
                 { name: 'Закуска с теплыми баклажанами', price: 12, checked: false },
-                { name: 'Овощное ассорти VIP', price: 8, checked: false },
+                { name: 'Овощное ассорти VIP', price: 11, checked: false },
                 { name: 'Холодец на хлебе', price: 15, checked: false },
-                { name: 'Соленое ассорти', price: 12, checked: false },
-                { name: 'Суши ассорти VIP', price: 25, checked: false },
+                { name: 'Соленое ассорти (садака)', price: 12, checked: false },
+                { name: 'Суши сет 0,5', price: 15, checked: false },
+                { name: 'Соленое ассорти (банкет)', price: 8, checked: false },
+                { name: 'Суши сет VIP', price: 25, checked: false },
                 { name: 'Помидоры в свекольном соку', price: 12, checked: false },
                 { name: 'Канапе с красной икрой', price: 15, checked: false },
                 { name: 'Сомса ассорти 3 вида', price: 12, checked: false },
                 { name: 'Селедка с картошкой', price: 25, checked: false },
                 { name: 'Мучной сет', price: 21, checked: false },
                 { name: 'Печеное ассорти Tomus', price: 20, checked: false },
-                { name: 'Пишме', price: 4, checked: false },
+                { name: 'Мини чебуреки', price: 16, checked: false },
                 { name: 'Арбуз и дыня', price: 8, checked: false },
-                { name: 'Сигара борек', price: 12, checked: false },
+                { name: 'Сигара борек', price: 10, checked: false },
                 { name: 'Клубника в мартинице', price: 10, checked: false },
-                { name: 'Лимоны и маслины', price: 14, checked: false },
+                { name: 'Лимоны и маслины', price: 12, checked: false },
                 { name: 'Фрукты в вазе', price: 20, checked: false },
-                { name: 'Лимонная закуска', price: 16, checked: false },
+                { name: 'Цитрусовая закуска', price: 13, checked: false },
                 { name: 'Фруктовая нарезка', price: 20, checked: false },
                 { name: 'Брускетты микс', price: 12, checked: false },
                 { name: 'Мороженное', price: 10, checked: false },
                 { name: 'Рулетики с лаваша', price: 10, checked: false },
                 { name: 'Хлеб садака', price: 4, checked: false },
-                { name: 'Кур.ножки + картофель', price: 24, checked: false },
+                { name: 'Куриные ножки с фри', price: 26, checked: false },
                 { name: 'Хлеб банкет', price: 8, checked: false },
                 { name: 'Нагетсы + фри', price: 28, checked: false },
                 { name: 'Рыбное - 1 тарелка', price: 80, checked: false },
                 { name: 'Чикен VIP', price: 32, checked: false },
-                { name: 'Напитки ассорти', price: 20, checked: false }
+                { name: 'Напитки ассорти', price: 25, checked: false }
             ]
         },
         {
@@ -54,16 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Дамский каприз', price: 16, checked: false },
                 { name: 'Винегрет', price: 5, checked: false },
                 { name: 'Мясной в соевом соусе', price: 18, checked: false },
-                { name: 'Баклажановый салат', price: 9, checked: false },
+                { name: 'Баклажановый салат', price: 10, checked: false },
                 { name: 'Итальянский салат', price: 14, checked: false },
-                { name: 'Цезарь с курицей', price: 13, checked: false },
+                { name: 'Цезарь с курицей', price: 14, checked: false },
                 { name: 'Салат "Каприз"', price: 16, checked: false },
                 { name: 'Салат "Ростбиф"', price: 18, checked: false },
                 { name: 'Салат "Белиссимо"', price: 12, checked: false },
-                { name: 'Салат "Тайский"', price: 15, checked: false },
-                { name: 'Салат с хрустящими броколли', price: 11, checked: false },
+                { name: '"Тайский с мясом"', price: 15, checked: false },
+                { name: 'Салат "Коул Слоу"', price: 12, checked: false },
                 { name: 'Салат с запеченой тыквой', price: 11, checked: false },
-                { name: 'Салат с тыквенным соусом"', price: 11, checked: false },
+                { name: 'Салат с тыквенным соусом', price: 11, checked: false },
                 { name: 'Греческий салат', price: 8, checked: false },
                 { name: 'Салат с моцареллой', price: 14, checked: false },
                 { name: 'Салат с морской капустой', price: 12, checked: false },
@@ -121,11 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Чоп-чиш шашлыки', price: 60, checked: false },
                 { name: 'Куриный рулет + рис', price: 40, checked: false },
                 { name: 'Шашлыки 3 вида', price: 55, checked: false },
-                { name: 'Куриный рулет + рис (общая)', price: 40, checked: false },
+                { name: 'Кур.отбивная + гратен', price: 40, checked: false },
                 { name: 'Шашлыки 4 вида', price: 70, checked: false },
                 { name: 'Куриная грудка + рис', price: 40, checked: false },
-                { name: 'Шашлыки 5 видов', price: 80, checked: false },
-                { name: 'Куриное соте с овошами', price: 35, checked: false },
+                { name: 'Бахар мангал', price: 45, checked: false },
+                { name: 'Куриное соте с овощами', price: 35, checked: false },
                 { name: 'Мангал микс "Бахар"', price: 90, checked: false }
             ]
         }
@@ -181,4 +183,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Изначально обновляем сумму при загрузке страницы
     updateTotalPrice();
 });
+
 
