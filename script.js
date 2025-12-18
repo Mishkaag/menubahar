@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Цитрусовая закуска', price: 13, checked: false, half: true },
                 { name: 'Фруктовая нарезка', price: 20, checked: false, half: true },
                 { name: 'Лимоно-ананасовая закуска', price: 16, checked: false, half: true },
-                { name: 'Фруктовая нарезка VIP', price: 25, checked: false, half: true },
+                { name: 'Фруктовая нарезка VIP', price: 24, checked: false, half: true },
                 { name: 'Брускетты микс', price: 12, checked: false, half: true },
                 { name: 'Мороженное', price: 10, checked: false, half: true },
                 { name: 'Рулетики с лаваша', price: 10, checked: false, half: true },
@@ -215,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateTotalPrice();
 });
+
 
 
 
