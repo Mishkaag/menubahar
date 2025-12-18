@@ -114,7 +114,7 @@ body {
 .half-btn.active {
     background: #ff4d4d; /* красный фон при выборе 0.5 */
     color: white;
-    border-color: #d93636;
+    border-color: black; /* #d93636 */
 }
 
 .menu-item input[disabled] + label {
@@ -125,5 +125,6 @@ body {
 .menu-item input[disabled] + label {
     cursor: not-allowed;
 }
+
 
 
