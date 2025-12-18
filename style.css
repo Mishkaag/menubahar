@@ -97,8 +97,9 @@ body {
 	font-weight: 400; /* Использование Regular (400) начертания */
 	color: #2c2b2e;
 	line-height: 1.2;
+}
 
-	.half-btn {
+.half-btn {
     font-size: 12px;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -124,4 +125,5 @@ body {
 .menu-item input[disabled] + label {
     cursor: not-allowed;
 }
+
 
