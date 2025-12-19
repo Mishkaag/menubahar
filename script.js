@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Сырное плато', price: 20, checked: false, half: false },
                 { name: 'Конвертики с ветчиной', price: 15, checked: false, half: true },
                 { name: 'Сырное канапе', price: 23, checked: false, half: false },
-                { name: 'Баклажановое капризе', price: 14, checked: true },
+                { name: 'Баклажановое капризе', price: 14, checked: false, half: true },
                 { name: 'Овощное ассорти', price: 6, checked: false, half: false },
                 { name: 'Закуска с теплыми баклажанами', price: 12, checked: false, half: true },
                 { name: 'Овощное ассорти VIP', price: 11, checked: false, half: false },
@@ -215,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateTotalPrice();
 });
+
 
 
 
