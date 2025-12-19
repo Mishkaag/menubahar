@@ -89,25 +89,25 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'ГОРЯЧИЕ БЛЮДА',
             dishes: [
-                { name: 'Плов из говядины', price: 33, checked: false, half: true },
-                { name: 'Кефте с сыром + рис', price: 50, checked: false, half: true },
-                { name: 'Плов (мясо от заказчика)', price: 15, checked: false, half: true },
-                { name: 'Кур.ножки + рис (общая)', price: 30, checked: false, half: true },
-                { name: 'Ярма с бараниной', price: 12, checked: false, half: true },
+                { name: 'Плов из говядины', price: 33, checked: false, half: false },
+                { name: 'Кефте с сыром + рис', price: 50, checked: false, half: false },
+                { name: 'Плов (мясо от заказчика)', price: 15, checked: false, half: false },
+                { name: 'Кур.ножки + рис (общая)', price: 30, checked: false, half: false },
+                { name: 'Ярма с бараниной', price: 12, checked: false, half: false },
                 { name: 'Курица в слив.соусе + рис (общая)', price: 40, checked: false, half: true },
-                { name: 'Ярма (мясо от заказчика)', price: 10, checked: false, half: true },
-                { name: 'Жаркое в горшочке', price: 45, checked: false, half: true },
-                { name: 'Дограма с бараниной', price: 30, checked: false, half: true },
+                { name: 'Ярма (мясо от заказчика)', price: 10, checked: false, half: false },
+                { name: 'Жаркое в горшочке', price: 45, checked: false, half: false },
+                { name: 'Дограма с бараниной', price: 30, checked: false, half: false },
                 { name: 'Жаркое с овощами (общая)', price: 50, checked: false, half: true },
-                { name: 'Дограма (мясо от заказчика)', price: 15, checked: false, half: true },
+                { name: 'Дограма (мясо от заказчика)', price: 15, checked: false, half: false },
                 { name: 'Жаркое + картофель (общая)', price: 50, checked: false, half: true },
-                { name: 'Нохут чорба с говядиной', price: 35, checked: false, half: true },
+                { name: 'Нохут чорба с говядиной', price: 35, checked: false, half: false },
                 { name: 'Бахар микс (общая)', price: 55, checked: false, half: true },
-                { name: 'Нохут чорба (мясо от заказчика)', price: 15, checked: false, half: true },
-                { name: 'Голень ягненка + булгур', price: 55, checked: false, half: true },
-                { name: 'Соус с говядиной', price: 35, checked: false, half: true },
+                { name: 'Нохут чорба (мясо от заказчика)', price: 15, checked: false, half: false },
+                { name: 'Голень ягненка + булгур', price: 55, checked: false, half: false },
+                { name: 'Соус с говядиной', price: 35, checked: false, half: false },
                 { name: 'Голень ягненка + булгур (общая)', price: 55, checked: false, half: true },
-                { name: 'Рисовая каша', price: 15, checked: false, half: true },
+                { name: 'Рисовая каша', price: 15, checked: false, half: false },
                 { name: 'Медальоны + овощи (общая)', price: 60, checked: false, half: true },
                 { name: 'Долма + голубцы (общая)', price: 24, checked: false, half: true },
                 { name: 'Бараньи рёбра + баклажаны (общая)', price: 55, checked: false, half: true },
@@ -119,15 +119,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Персидский плов (общая)', price: 40, checked: false, half: true },
                 { name: 'Манты ассорти 3 вида', price: 18, checked: false, half: true },
                 { name: 'Кебаб микс (общее)', price: 35, checked: false, half: true },
-                { name: 'Чебуреки с мясом', price: 8, checked: false, half: true },
+                { name: 'Чебуреки с мясом', price: 8, checked: false, half: false },
                 { name: 'Чоп-чиш шашлыки', price: 60, checked: false, half: true },
-                { name: 'Куриный рулет + рис', price: 40, checked: false, half: true },
+                { name: 'Куриный рулет + рис', price: 40, checked: false, half: false },
                 { name: 'Шашлыки 3 вида', price: 55, checked: false, half: true },
-                { name: 'Кур.отбивная + гратен', price: 40, checked: false, half: true },
-                { name: 'Шашлыки 5 видов', price: 45, checked: false, half: true },
-                { name: 'Куриная грудка + рис', price: 40, checked: false, half: true },
-                { name: 'Бахар микс мангал', price: 50, checked: false, half: true },
-                { name: 'Куриное соте с овощами', price: 35, checked: false, half: true }
+                { name: 'Кур.отбивная + гратен', price: 40, checked: false, half: false },
+                { name: 'Шашлыки 5 видов', price: 45, checked: false, half: false },
+                { name: 'Куриная грудка + рис', price: 40, checked: false, half: false },
+                { name: 'Бахар микс мангал', price: 50, checked: false, half: false },
+                { name: 'Куриное соте с овощами', price: 35, checked: false, half: false }
             ]
         }
     ];
@@ -215,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateTotalPrice();
 });
+
 
 
 
