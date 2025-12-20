@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Баклажановый салат', price: 10, checked: false, half: true },
                 { name: 'Итальянский салат', price: 14, checked: false, half: true },
                 { name: 'Цезарь с курицей', price: 14, checked: false, half: true },
-                { name: 'Салат "Каприз"', price: 16, checked: false, half: true },
-                { name: 'Салат "Ростбиф"', price: 18, checked: false, half: true },
-                { name: 'Салат "Белиссимо"', price: 12, checked: false, half: true },
-                { name: '"Тайский с мясом"', price: 15, checked: false, half: true },
-                { name: 'Салат "Коул Слоу"', price: 12, checked: false, half: true },
+                { name: 'Салат Каприз', price: 16, checked: false, half: true },
+                { name: 'Салат Ростбиф', price: 18, checked: false, half: true },
+                { name: 'Салат Белиссимо', price: 12, checked: false, half: true },
+                { name: 'Тайский с мясом', price: 15, checked: false, half: true },
+                { name: 'Салат Коул Слоу', price: 12, checked: false, half: true },
                 { name: 'Салат с запеченой тыквой', price: 11, checked: false, half: true },
                 { name: 'Салат с тыквенным соусом', price: 11, checked: false, half: true },
                 { name: 'Греческий салат', price: 8, checked: false, half: true },
@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 { name: 'Баклажаны по-азиатски', price: 11, checked: false, half: true },
                 { name: 'Красная капуста с курицей', price: 12, checked: false, half: true },
                 { name: 'Мужской салат', price: 18, checked: false, half: true },
-                { name: 'Салат "Тбилиси"', price: 18, checked: false, half: true },
-                { name: 'Салат "Мозайка"', price: 10, checked: false, half: true }
+                { name: 'Салат Тбилиси', price: 18, checked: false, half: true },
+                { name: 'Салат Мозайка', price: 10, checked: false, half: true }
             ]
         },
         {
@@ -215,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateTotalPrice();
 });
+
 
 
 
